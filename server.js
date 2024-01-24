@@ -7,9 +7,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/blog', (req, res) => {
-    res.send('hello node api')
+    res.send('hello blog, My name is osohyun')
 })
-
 
 app.listen(3000, ()=> {
     console.log(`Node API app is running on port 3000`)
